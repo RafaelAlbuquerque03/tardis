@@ -6,7 +6,7 @@ const CHARS=[
 {name:"Ceci",role:"?",color:"#676767",ini:"C",img:["images/ceci.png", "images/flareon.png"],bg:"places/ceci.jpg",place:"??, ?",msg:"placeholder de mensagem"},
 {name:"Lice",role:"Dalek",color:"#123456",ini:"L",img:["images/lice.png", "images/leafeon.png"],bg:"places/lice.jpg",place:"??, ?",msg:"placeholder de mensagem"},
 {name:"Dan",role:"?",color:"#abcdef",ini:"D",img:["images/dan.png", "images/espeon.png"],bg:"places/dan.jpg",place:"??, ?",msg:"placeholder de mensagem"},
-{name:"Bea",role:"Martha Jones",color:"#a1b2c3",ini:"Be",img:["images/bea.png", "images/sylveon.png"],bg:"places/bea.png",place:"Constelações, Espaço",msg:"placeholder de mensagem"}
+{name:"Bea",role:"Martha Jones",color:"#a1b2c3",ini:"Be",img:["images/bea.png", "images/sylveon.png"],bg:"places/bea.jpg",place:"Constelações, Espaço",msg:"placeholder de mensagem"}
 ];
 const $=s=>document.querySelector(s);
 const show=id=>{document.querySelectorAll('.scene').forEach(e=>e.classList.toggle('on',e.id===id))};
