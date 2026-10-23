@@ -2,11 +2,11 @@
 // If an image file is missing, the page shows a coloured badge or a plain gradient instead.
 const CHARS=[
 {name:"Kin",role:"o Doutor",color:"#c8a2ff",ini:"K",img:["images/kin.png", "images/umbreon.png"],bg:"places/athena.jpg",place:"Templo de Athena, Grécia",msg:"placeholder de mensagem"},
-{name:"Bruce",role:"Rose Tyler",color:"#ff9ec4",ini:"Br",img:"images/bruce.png",bg:"places/bruce.jpg",place:"??, ?",msg:"placeholder de mensagem"},
-{name:"Ceci",role:"Dalek",color:"#676767",ini:"C",img:"images/ceci.png",bg:"places/ceci.jpg",place:"??, ?",msg:"placeholder de mensagem"},
-{name:"Lice",role:"Martha Jones",color:"#123456",ini:"L",img:"images/lice.png",bg:"places/lice.jpg",place:"??, ?",msg:"placeholder de mensagem"},
-{name:"Dan",role:"Donna Noble",color:"#abcdef",ini:"D",img:"images/dan.png",bg:"places/dan.jpg",place:"??, ?",msg:"placeholder de mensagem"},
-{name:"Bea",role:"Capitão Jack Harkness",color:"#a1b2c3",ini:"Be",img:"images/bea.png",bg:"places/bea.jpg",place:"??, ?",msg:"placeholder de mensagem"}
+{name:"Bruce",role:"Rose Tyler",color:"#ff9ec4",ini:"Br",img:["images/bruce.png", "images/jolteon.png"],bg:"places/bruce.jpg",place:"??, ?",msg:"placeholder de mensagem"},
+{name:"Ceci",role:"Dalek",color:"#676767",ini:"C",img:["images/ceci.png", "images/flareon.png"],bg:"places/ceci.jpg",place:"??, ?",msg:"placeholder de mensagem"},
+{name:"Lice",role:"Martha Jones",color:"#123456",ini:"L",img:["images/lice.png", "images/leafeon.png"],bg:"places/lice.jpg",place:"??, ?",msg:"placeholder de mensagem"},
+{name:"Dan",role:"Donna Noble",color:"#abcdef",ini:"D",img:["images/dan.png", "images/espeon.png"],bg:"places/dan.jpg",place:"??, ?",msg:"placeholder de mensagem"},
+{name:"Bea",role:"Capitão Jack Harkness",color:"#a1b2c3",ini:"Be",img:["images/bea.png", "images/sylveon.png"],bg:"places/bea.jpg",place:"??, ?",msg:"placeholder de mensagem"}
 ];
 const $=s=>document.querySelector(s);
 const show=id=>{document.querySelectorAll('.scene').forEach(e=>e.classList.toggle('on',e.id===id))};
