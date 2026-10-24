@@ -1,11 +1,9 @@
-// One entry per friend. Put character PNGs in images/ and location photos in places/.
-// If an image file is missing, the page shows a coloured badge or a plain gradient instead.
 const CHARS=[
-{name:"Kin",role:"o Doutor",color:"#c8a2ff",ini:"K",img:["images/kin.png", "images/umbreon.png"],bg:"places/athena.jpg",place:"Templo de Athena, Grécia",msg:"placeholder de mensagem"},
+{name:"Kin",role:"o Doutor",color:"#c8a2ff",ini:"K",img:["images/kin.png", "images/umbreon.png"],bg:"places/athena.jpg",place:"Templo de Athena, Grécia",msg:"Você já sabe do costume de começar e não saber o que falar e blablabla, mas acho que você sabe o quanto esse costume não serve apenas para os textos de aniversário. Hoje além de seu aniversário nós completamos 9 (!!!) meses juntos e não existe nada que me faça mais feliz no mundo do que ter a oportunidade de comemorar o seu dia. Estar contigo e aprender todos os dias mais sobre você e sobre mim mesmo é um privilégio e eu agradeço todos os dias por ter você na minha vida, poder desfrutar de momentos simples como rir de um gatinho olhando pra câmera ou rir de algo do nada porque um número apareceu é o que torna meu dia melhor, você me faz melhor. Eu te amo do fundo do meu coração, minha vivi, feliz aniversário e feliz 9 meses."},
 {name:"Bruce",role:"Rose Tyler",color:"#ff9ec4",ini:"Br",img:["images/bruce.png", "images/jolteon.png"],bg:"places/bruce.png",place:"O Sol, Espaço",msg:"placeholder de mensagem"},
-{name:"Ceci",role:"?",color:"#676767",ini:"C",img:["images/ceci.png", "images/flareon.png"],bg:"places/ceci.jpeg",place:"Bucareste, Romênia",msg:"placeholder de mensagem"},
+{name:"Ceci",role:"Donna Noble",color:"#676767",ini:"C",img:["images/ceci.png", "images/flareon.png"],bg:"places/ceci.jpeg",place:"Bucareste, Romênia",msg:"placeholder de mensagem"},
 {name:"Lice",role:"Dalek",color:"#123456",ini:"L",img:["images/lice.png", "images/leafeon.png"],bg:"places/lice.jpeg",place:"Roma, Itália",msg:"placeholder de mensagem"},
-{name:"Dan",role:"?",color:"#abcdef",ini:"D",img:["images/dan.png", "images/espeon.png"],bg:"places/dan.png",place:"Lyon, França",msg:"placeholder de mensagem"},
+{name:"Dan",role:"Jack Harkness",color:"#abcdef",ini:"D",img:["images/dan.png", "images/espeon.png"],bg:"places/dan.png",place:"Lyon, França",msg:"placeholder de mensagem"},
 {name:"Bea",role:"Martha Jones",color:"#a1b2c3",ini:"Be",img:["images/bea.png", "images/sylveon.png"],bg:"places/bea.jpg",place:"Espaço, Espaço",msg:"placeholder de mensagem"}
 ];
 const $=s=>document.querySelector(s);
